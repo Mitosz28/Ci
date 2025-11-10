@@ -1,8 +1,8 @@
 import unittest
 import math
 
-szam1=int(input("Szam 1"))
-szam2=int(input("Szam 2"))
+szam1=int(input("Szam 1: "))
+szam2=int(input("Szam 2: "))
 
 def abs_max(a:int, b:int) -> int:
     if(abs(a)>abs(b)):
